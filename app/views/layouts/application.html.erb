@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PERNE</title>
+	<meta charset="UTF-8">
+	<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  	<%= csrf_meta_tags %>
+	
+</head>
+<body>
+	<h1>PERNE</h1>
+	<div class="stats">
+		<strong>Қателер: </strong> <span id="mistake">0</span> |
+		<strong>Уақыт: </strong> <span id="time">0</span> |
+		<strong>Бір секунданың ішінде бейне: </strong> <span id="ratio">0</span>
+	</div>
+	<div class="typer">
+		<span class="typed"></span>
+		<span class="untyped"><%= yield %></span>
+	</div>
+</body>
+</html>

@@ -1,8 +1,5 @@
-import { useState } from "react";
 import Game from "./components/Game";
-import Typer from "./components/Typer";
-import { booksTexts } from "./data/texts";
-import { GameStatus } from "./interface/GameStatus";
+import logo from "./logo.png";
 
 function App() {
   return (
@@ -10,6 +7,7 @@ function App() {
       <div className="container mx-auto ">
         <header className="py-4">
           <h1 className="text-lg mb-8 text-white">
+            <img src={logo} className="inline-block mr-4" />
             perne - simple typing game
           </h1>
         </header>

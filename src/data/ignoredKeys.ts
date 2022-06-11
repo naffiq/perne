@@ -1,0 +1,25 @@
+const ignoredKeys = [
+  "Shift",
+  "Control",
+  "Alt",
+  "ContextMenu",
+  "End",
+  "Home",
+  "PageDown",
+  "PageUp",
+  "Delete",
+  "ArrowDown",
+  "ArrowLeft",
+  "ArrowUp",
+  "ArrowRight",
+  "NumLock",
+  "PrintScreen",
+  "ScrollLock",
+  "Pause",
+  "CapsLock",
+  "Enter",
+  "Insert",
+  "Escape",
+];
+
+export default ignoredKeys;

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/perne/static/css/main.ea266444.css",
+    "main.js": "/perne/static/js/main.0b2a7bf1.js",
+    "static/js/787.adc98e4a.chunk.js": "/perne/static/js/787.adc98e4a.chunk.js",
+    "index.html": "/perne/index.html",
+    "main.ea266444.css.map": "/perne/static/css/main.ea266444.css.map",
+    "main.0b2a7bf1.js.map": "/perne/static/js/main.0b2a7bf1.js.map",
+    "787.adc98e4a.chunk.js.map": "/perne/static/js/787.adc98e4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea266444.css",
+    "static/js/main.0b2a7bf1.js"
+  ]
+}

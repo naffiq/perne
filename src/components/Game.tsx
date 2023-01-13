@@ -6,7 +6,7 @@ import Stats from "./Stats";
 import Typer from "./Typer";
 
 function randomBookQuote() {
-  return booksTexts[~~(Math.random() / booksTexts.length)];
+  return booksTexts[~~(Math.random() * booksTexts.length)];
 }
 
 export default function Game() {
@@ -42,11 +42,7 @@ export default function Game() {
   return (
     <>
       {gameStatus !== GameStatus.Complete ? (
-        <Typer
-          text={booksTexts[0]}
-          onComplete={handleComplete}
-          onStart={handleStart}
-        />
+        <Typer text={text} onComplete={handleComplete} onStart={handleStart} />
       ) : (
         <Stats {...stats} onNewGame={handleNewGame} />
       )}

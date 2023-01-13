@@ -43,7 +43,7 @@ export default function Game() {
     <>
       {gameStatus !== GameStatus.Complete ? (
         <Typer
-          text={booksTexts[0]}
+          text={text}
           onComplete={handleComplete}
           onStart={handleStart}
         />

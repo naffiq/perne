@@ -1,8 +1,9 @@
-export const booksTexts = [
+ңңexport const booksTexts = [
   "Sometimes, you read a book and it fills you with this weird evangelical zeal, and you become convinced that the shattered world will never be put back together unless and until all living humans read the book.",
   "What really knocks me out is a book that, when you're all done reading it, you wish the author that wrote it was a terrific friend of yours and you could call him up on the phone whenever you felt like it. That doesn't happen much, though.",
   "I declare after all there is no enjoyment like reading! How much sooner one tires of any thing than of a book! -- When I have a house of my own, I shall be miserable if I have not an excellent library.",
   "I can never read all the books I want; I can never be all the people I want and live all the lives I want. I can never train myself in all the skills I want. And why do I want? I want to live and feel all the shades, tones and variations of mental and physical experience possible in my life. And I am horribly limited.",
   "You think your pain and your heartbreak are unprecedented in the history of the world, but then you read. It was books that taught me that the things that tormented me most were the very things that connected me with all the people who were alive, who had ever been alive.",
   "I spent my life folded between the pages of books. In the absence of human relationships I formed bonds with paper characters. I lived love and loss through stories threaded in history; I experienced adolescence by association. My world is one interwoven web of words, stringing limb to limb, bone to sinew, thoughts and images all together. I am a being comprised of letters, a character created by sentences, a figment of imagination formed through fiction.",
+  "Зейнеткер адамның жан баққаннан басқа не шаруасы болуы мүмкін? - дедім күліп. - Кітапты айнымас серікке айналдырдым, ара-тұра өткенді ой елегінен өткеріп, бүгінгі өмірді таразылапқоям, көз көріп, көңіл жеткендерді еске аламын, өкінішкеқарай, олардың да қатары сиреп қалды ғой."
 ];
